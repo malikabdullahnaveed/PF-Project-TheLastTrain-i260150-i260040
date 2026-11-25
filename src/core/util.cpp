@@ -77,7 +77,10 @@ using namespace std;
     }
     void clearScreen()
     {
-        
+cout << "\033[2J\033[H";
+// \033 Escape character
+// [H Move cursor to the top-left corner
+// [2j clear  the terminal clearScreen
     }
 
 
