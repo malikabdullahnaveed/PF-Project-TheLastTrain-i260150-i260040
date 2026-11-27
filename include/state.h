@@ -9,7 +9,9 @@ const char CONN_DOOR        = 'D'; // Ordinary door
 const char CONN_WINDOW      = 'W'; // Window traversal
 const char CONN_LOCKED_DOOR = 'L'; // Locked door (requires Master Key)
 const char CONN_SOLID_WALL  = '#'; // Wall partition (impassable)
-
+const char CONN_STAIRS = 'S'; 
+const char CONN_LIFT1  = '1';
+const char CONN_LIFT2  = '2';
 // Entity / Item Character Symbols (Stored in 2D/3D char arrays)
 const char ENT_NONE             = ' ';
 const char ENT_MASTER_KEY       = '<'; // Master Key
